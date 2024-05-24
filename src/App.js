@@ -3,8 +3,8 @@ import './App.css';
 import BusinessList from './Components/BusinessList/BusinessList';
 import Header from './Components/Header/Header';
 import ScrollToTheTop from './Components/ScrollToTheTop/ScrollToTheTop'
-import sampleData from './Components/sampleData';
-//import getYelpRestaurants from './Utils/Utils';
+import sampleData from './Components/sampleData';//Outcomment this line
+//import getYelpRestaurants from './Utils/Utils';//Restore this line
 
 
 function App() {
@@ -34,12 +34,13 @@ function App() {
   const [yelpData, setYelpData] = useState([]);
 
   //Handle Form Submit and fetch from Yelp
-  const handleClick = (event) => {//async (event) => {
+  //const handleClick = async (event) => {//Restore this line
+  const handleClick = (event) => {//Outcomment this line
     event.preventDefault();
     console.log(`Searching Yelp with ${name}, ${location}, ${sort}`);
-    //let response = await getYelpRestaurants(name, location, sort);
-    //setYelpData(response);
-    setYelpData(sampleData);
+    //let response = await getYelpRestaurants(name, location, sort);//Restore this line
+    //setYelpData(response);//Restore this line
+    setYelpData(sampleData);//Remove this line
   }
 
   return (
