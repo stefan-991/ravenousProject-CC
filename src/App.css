@@ -33,11 +33,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
+.a-no-underline {
+  text-decoration: none;
+  color: black;
+}
 
-
-
+.h2-hover:hover {
+  color: goldenrod;
+}

@@ -8,74 +8,139 @@ function addBusiness(businessInfo) {
     sampleData.push(businessInfo);
 }
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-addBusiness({imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-name: 'MarginOtto Pizzeria',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Italian',
-rating: 4.5,
-reviewCount: 90});
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 
-/*
-function toCompile() {
-    return(
-        <React.Fragment>
-    <App list={sampleData} />
-    </React.Fragment>
-    )
-}
-*/
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
+
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
+
+addBusiness({
+    image_url: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+    name: 'MarginOtto Pizzeria',
+    url: 'https://www.yelp.com/search?find_desc=MarginOtto+Pizzeria&find_loc=ny',
+    location: {
+        address1: '1010 Paddington Way',
+        city: 'Flavortown',
+        state: 'NY',
+        zipCode: '10101',
+    },
+    category: 'Italian',
+    rating: 4.5,
+    reviewCount: 90
+});
 export default sampleData;
 

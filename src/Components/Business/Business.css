@@ -10,12 +10,18 @@
 .business-card {
     width: calc(33.333% - 20px);
     margin-bottom: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .business-image {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.business-image:hover {
+    transform: scale(1.05);
+    /* Scale the image up slightly */
 }
 
 .business-info {
@@ -24,7 +30,8 @@
     padding: 15px;
 }
 
-.business-text, .business-stats {
+.business-text,
+.business-stats {
     flex-basis: 50%;
 }
 
@@ -41,15 +48,27 @@
 .review {
     color: black;
     text-transform: none;
-    font-weight:normal
+    font-weight: normal
+}
+
+.a-no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.h2-hover:hover {
+    color: goldenrod;
 }
 
 /* Add this media query at the end of your CSS file */
 @media (max-width: 768px) {
     .business-card {
-      width: 100%; /* Change the width to 100% on smaller screens */
+        width: 100%;
+        /* Change the width to 100% on smaller screens */
     }
+
     .business-info {
-      flex-direction: column; /* Stack the .business-text and .business-stats vertically on smaller screens */
+        flex-direction: column;
+        /* Stack the .business-text and .business-stats vertically on smaller screens */
     }
-  }
+}
