@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Ravenous project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project allows to connect and search the Yelp data on restaurants. the app is using Yelp Fusion API. The Yelp Fusion API allows you to get the best local content and user reviews from millions of businesses around the world
+
+Input fields allow for search by name of business or cuisine for example (in the left input field).
+The right input field allows for adding a location parameter.
+
+The current active setup is using the sample data to show the look of the app.
+
+As API key will not be shared, sample data is still in use.
+In order to restore full usage, api key should be added in the Utils.js and lines 6,7,37,38,41,42 and 43 of the App.js modified as instructed at the end of those lines.
+
+Have fun!
 
 ## Available Scripts
 
@@ -19,7 +31,7 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run build` Should not be used as the project has CORS Restrictions
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
